@@ -26,3 +26,29 @@
 #     print(listn)
 
 # End of program
+
+listn = [0, 1, 1]
+
+def fibonacci_numbers(n):
+
+    
+    if n == 0:
+        print([0])
+
+    elif n == 1:
+        print([0,1])
+
+    elif n ==2:
+        print([0, 1, 1])
+
+    else:
+        for i in range(3, n + 1):
+            listn.append(listn[-2]+listn[-1])
+
+        return(listn)
+
+    #return(listn)
+
+print(fibonacci_numbers(int(input("type: "))))
+
+# End of program as a function
