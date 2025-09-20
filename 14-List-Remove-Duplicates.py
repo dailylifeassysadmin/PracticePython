@@ -22,3 +22,27 @@ for item in listn:
 print(output_list)
 
 # End of Program
+
+
+# for i in listn:
+#     if listn.count(i) > 1:
+#         for j in range(listn.count(i)-1): 
+#             listn.remove(i)
+# print(listn)
+
+# def remove_duplicates_loop(input_list):
+#     output_list = []
+#     for item in input_list:
+#         if item not in output_list:
+#             output_list.append(item)
+#     return output_list
+
+# def remove_duplicates_set(input_list):
+#     return list(set(input_list))
+
+# # Testing the functions
+# test_list = [1, 2, 2, 3, 4, 4, 5]
+# print(remove_duplicates_loop(test_list))  # Output: [1, 2, 3, 4, 5]
+# print(remove_duplicates_set(test_list))   # Output: [1, 2, 3, 4, 5] (order may vary)
+# # print(listn)
+# # print(listn2)
