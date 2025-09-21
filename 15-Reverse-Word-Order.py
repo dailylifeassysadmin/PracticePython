@@ -29,3 +29,18 @@ print(new_result)
 # print("Newdata", new_result[::-1])
 # result = result[-1]
 # print(result)
+
+# Using functions as part of the solution.
+
+def reverse_word_order(word):
+    result = word.split(" ")
+    new_result = []
+    for i in range(1, len(result)+1):
+        new_result.append(result[-i])
+    new_result = " ".join(new_result)
+    return new_result
+
+print(reverse_word_order(word))
+
+# print("Reversed word order:", reverse_word_order(word))
+# End of program
